@@ -1,38 +1,15 @@
 <!DOCTYPE html>
-
-<!--[if IE 6]>
-
-<html id="ie6" class="ancient-ie old-ie bit-html" dir="ltr" lang="en-US">
-
-<![endif]-->
-
-<!--[if IE 7]>
-
-<html id="ie7" class="ancient-ie old-ie  bit-html" dir="ltr" lang="en-US">
-
-<![endif]-->
-
-<!--[if IE 8]>
-
-<html id="ie8" class="old-ie bit-html" dir="ltr" lang="en-US">
-
-<![endif]-->
-
-<!--[if IE 9]>
-
-<html id="ie9" class="old-ie9 bit-html" dir="ltr" lang="en-US">
-
-<![endif]-->
-
-<!--[if !(IE 6) | !(IE 7) | !(IE 8) | !(IE 9)  ]><!-->
-
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My GitHub Pages</title>
+    <title>Your Name - Personal Website</title>
+    <style>
+        .custom-link {
+            color: blue; /* Change the color to your desired color */
+        }
+    </style>
+
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -85,29 +62,94 @@
             color: #ffffff;
             font-weight: bold;
         }
+        section {
+            padding: 20px 0;
+            background: #fff;
+        }
+        section h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section p {
+            line-height: 1.6;
+        }
+        .bio {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .bio img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+        }
+        .bio a {
+            color: #333;
+            text-decoration: none;
+        }
+        .bio a:hover {
+            text-decoration: underline;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
             <div id="branding">
-                <h1>Welcome to My GitHub Pages</h1>
+                <h1>Personal pages</h1>
             </div>
             <nav>
                 <ul>
-                    <li class="current"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li class="current"><a href="#home">Home</a></li>
+                    <li><a href="#research">Research</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#experience">Experience</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-    <div class="container">
-        <section id="showcase">
-            <h1>Welcome to My Personal Website</h1>
-            <p>This is a simple example of a GitHub Pages website.</p>
-        </section>
-    </div>
+
+    <section id="home">
+        <div class="container">
+            <div class="bio">
+                <img src="pp_cropped.jpg" alt="M. Mamunur Rashid">
+                <h2>M. Mamunur Rashid, <span style="font-size: 0.6em;">PhD</span></h2>
+                <p> <strong style="color: red;">Bio</strong>: In December 2023, I received my PhD from the Computer Graphics and Vision Laboratory, under the guidance of <a href="https://www2.scut.edu.cn/cs_en/2017/0714/c6854a172443/page.htm" style="color: blue;">Professor Li Guiqing</a>.,
+                    in the Department of Computer Science and Engineering at <a href="https://www.scut.edu.cn/new/" style="color: blue;">South China University of Technology</a>.
+                    After graduation, I joined the R&D department of <a href="https://wuzhoucloud.com/" style="color: blue;">Guangzhou GRG Wuzhou Technologies Co., Ltd.</a> as a senior algorithm engineer,
+                    focusing on industrial scientific research in the field of artificial intelligence.
+                    I also collaborated with Professor Li Guiqing on several academic research projects.
+
+                    Previously, I received a Chinese Government Scholarship (CSC) and was accepted into the PhD program at South China University of Technology in September 2017.
+                    I hold a Diploma in Electrical Engineering, a Bachelor of Science in Electronics and Communications Engineering,
+                    and a Master of Science in Computer Science and Engineering..</p>
+                <p>Email: <a href="mailto:your.email@example.com">mmr.engr@gmail.com</a></p>
+                <p>Resume: <a href="resume_cn.pdf" download>Download Resume</a></p>
+            </div>
+        </div>
+    </section>
+
+    <section id="research">
+        <div class="container">
+            <h2>Research Articles</h2>
+            <p>Here are some of my research articles:</p>
+            <ul>
+                <li><a href="research-article-1.html">Research Article 1</a></li>
+                <li><a href="research-article-2.html">Research Article 2</a></li>
+                <!-- Add more articles as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Your Name. All rights reserved.</p>
+    </footer>
 </body>
 </html>

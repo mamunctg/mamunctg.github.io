@@ -96,6 +96,69 @@
             text-align: center;
             padding: 10px 0;
         }
+        .publication {
+            display: flex; /* Use Flexbox */
+            align-items: flex-start; /* Align items at the start of the cross axis */
+<!--            margin-bottom: 20px;-->
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .publication img {
+            max-width: 300px; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+            margin-right: 20px; /* Space between image and text */
+        }
+        .publication .info {
+            flex: 1; /* Take up remaining space */
+        }
+        .publication h3 {
+            margin-top: 0;
+        }
+        .publication p {
+            margin: 5px 0;
+        }
+        .publication .media {
+            margin-top: 10px;
+        }
+        .publication .info {
+        display: block; /* Ensure info is a block element */
+    }
+        .gif-image {
+            width: 300px; /* Set the desired width */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Optional: removes extra space below the image */
+        }
+<!--        .article {-->
+<!--        display: block; /* Ensure each article is a block element */-->
+<!--        margin-bottom: 20px; /* Space between articles */-->
+<!--        overflow: hidden; /* Clear floats */-->
+<!--    }-->
+
+<!--    .article img {-->
+<!--        max-width: 300px; /* Set the desired width */-->
+<!--        height: auto; /* Maintain aspect ratio */-->
+<!--        float: left; /* Float images to the left */-->
+<!--        margin-right: 20px; /* Space between image and text */-->
+<!--    }-->
+
+<!--    .article .info {-->
+<!--        display: block; /* Ensure info is a block element */-->
+<!--    }-->
+
+<!--    .article h3 {-->
+<!--        margin-top: 0;-->
+<!--    }-->
+
+<!--    .article p {-->
+<!--        margin: 5px 0;-->
+<!--    }-->
+
+<!--    .article .media {-->
+<!--        margin-top: 10px;-->
+<!--    }-->
     </style>
 </head>
 <body>
@@ -114,7 +177,7 @@
                     <li><a href="#tutorial">Tutorial</a></li>
 
 
-                    
+
                 </ul>
             </nav>
         </div>
@@ -136,6 +199,7 @@
                     I hold a Diploma in Electrical Engineering, a Bachelor of Science (B.Sc.) in Electronics and Communications Engineering,
                     and a Master of Science (M.Sc.) in Computer Science and Engineering..</p>
                 <p>Email: <a href="mailto:your.email@example.com">mmr.engr@gmail.com</a></p>
+                Social Links: <a target="_blank" href="https://scholar.google.com/citations?user=Jw2zebgAAAAJ&hl=en" style="color: blue;" >Google Scholar</a> / <a target="_blank" href="https://orcid.org/0000-0002-5600-4874" style="color: blue;">ORCID</a> / <a target="_blank" href="https://www.linkedin.com/in/muhammad-mamunur-rashid-b5978153/" style="color: blue;">Linkedin</a> / <a target="_blank" href="https://www.facebook.com/md.mamunur.rashid.501" style="color:blue">Facebook</a>
                 <p>Resume: <a href="resume_cn.pdf" download>Download Resume</a></p>
                 <p>Research Interests: Dynamic geometry processing, Multimodal, Image-video editing</p>
             </div>
@@ -144,12 +208,12 @@
 
      <section id="Thesis">
         <div class="container">
-            <h2>Thesis</h2>            
+            <h2>Thesis</h2>
             <ul>
                 <li>Ph.D. research:<a href="https://drive.google.com/file/d/1wcSIJuA8w-5Z2zmfSz7gel3xbxst2f8f/view" style="color: blue;"> Personalized Facial Expression Transfer by Using FLAME
 to Decouple Shape, Pose and Expression </a> </li> Supervisor:<a href="https://www2.scut.edu.cn/cs_en/2017/0714/c6854a172443/page.htm" style="color: blue;">Professor Li Guiqing</a>
                 <li>M.Sc. research: A Study on Various Methods of Lip Reading Systems </a></li> Supervisor: <a href="https://cu.ac.bd/public_profile/index.php?ein=4792" style="color: blue;">Professor Rashed Mustafa</a>
-                
+
             </ul>
         </div>
     </section>
@@ -159,13 +223,75 @@ to Decouple Shape, Pose and Expression </a> </li> Supervisor:<a href="https://ww
         <div class="container">
             <h2>Research Articles</h2>
             <p>Publications with  first author:</p>
-            <ul>
-                <li><a href="https://link.springer.com/article/10.1007/s00371-023-03035-1" style="color:blue;">High-fidelity facial expression transfer using part-based local–global conditional gans</a></li>
-                 <li><a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/sil2.12233" style="color:blue;">Nonspeech7k dataset: Classification and analysis of human non-speech sound</a></li>
-                <!-- Add more articles as needed -->
-            </ul>
+<!--            <ul>-->
+<!--                <li><a href="https://link.springer.com/article/10.1007/s00371-023-03035-1" style="color:blue;">High-fidelity facial expression transfer using part-based local–global conditional gans</a></li>-->
+<!--                 <li><a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/sil2.12233" style="color:blue;">Nonspeech7k dataset: Classification and analysis of human non-speech sound</a></li>-->
+<!--                &lt;!&ndash; Add more articles as needed &ndash;&gt;-->
+<!--            </ul>-->
         </div>
     </section>
+
+
+
+
+<!--    <div class="publication">-->
+    <div class="publication">
+        <img src="publications/obama.gif" alt="FET GIF" class="gif-image">
+        <div class="info">
+            <h3>High-fidelity facial expression transfer using part-based local–global conditional gans</h3>
+            <p>Authors: Muhammad Mamunur Rashid, Shihao Wu, Yongwei Nie & Guiqing Li *</p>
+            <p>Journal: The Visual Computer , 2023</p>
+            <div class="media">
+                <a href="https://link.springer.com/article/10.1007/s00371-023-03035-1">PDF</a> &nbsp
+
+                <a href="https://github.com/mamunctg">GitHub</a>
+            </div>
+        </div>
+    </div>
+    <div class="publication">
+        <img src="publications/nonspeech.gif" alt="Nonspeech Sound GIF" class="gif-image">
+        <div class="info">
+            <h3>Nonspeech7k dataset: Classification and analysis of human non-speech sound</h3>
+            <p>Authors: Muhammad Mamunur Rashid, Guiqing Li *, Chengrui Du</p>
+            <p>Journal: IET signal Processing , 2023</p>
+            <div class="media">
+                <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/sil2.12233">PDF</a>  &nbsp
+
+                <a href="https://github.com/mamunctg">GitHub</a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+<!--    <div class="publication">-->
+<!--        <img src="publications/obama.gif" alt="FET GIF" class="gif-image">-->
+<!--        <div class="info">-->
+<!--            <h3>High-fidelity facial expression transfer using part-based local–global conditional gans</h3>-->
+<!--            <p>Authors: Muhammad Mamunur Rashid, Shihao Wu, Yongwei Nie & Guiqing Li</p>-->
+<!--            <p> Journal: The Visual Computer , 2023</p>-->
+<!--            <div class="media">-->
+<!--                <a href="https://arxiv.org/abs/2210.01234">arXiv</a> /-->
+<!--                <a href="https://github.com/yourusername/VideoReTalking">GitHub</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--         <img src="publications/nonspeech.gif" alt="Nonspeech Sound GIF" class="gif-image">-->
+<!--        <div class="info">-->
+<!--            <h3>Nonspeech7k dataset: Classification and analysis of human non-speech sound</h3>-->
+<!--            <p>Authors: Muhammad Mamunur Rashid, Guiqing Li, Chengrui Du</p>-->
+<!--            <p> Journal: IET signal Processing , 2023</p>-->
+<!--            <div class="media">-->
+<!--                <a href="https://arxiv.org/abs/2210.01234">arXiv</a> /-->
+<!--                <a href="https://github.com/yourusername/VideoReTalking">GitHub</a>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+
+
+
 
     <footer>
         <p>&copy; 2025 Muhammad Mamunur Rashid. All rights reserved.</p>

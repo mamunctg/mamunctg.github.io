@@ -1,194 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Personal Website</title>
-    <style>
-        .custom-link {
-            color: blue; /* Change the color to your desired color */
-        }
-    </style>
-
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        .container {
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        header {
-            background: #333;
-            color: #fff;
-            padding-top: 30px;
-            min-height: 70px;
-            border-bottom: #555 3px solid;
-        }
-        header a {
-            color: #fff;
-            text-decoration: none;
-            text-transform: uppercase;
-            font-size: 16px;
-        }
-        header ul {
-            padding: 0;
-            list-style: none;
-        }
-        header li {
-            float: left;
-            display: inline;
-            padding: 0 20px 0 20px;
-        }
-        header #branding {
-            float: left;
-        }
-        header #branding h1 {
-            margin: 0;
-        }
-        header nav {
-            float: right;
-            margin-top: 10px;
-        }
-        header .highlight, header .current a {
-            color: #e8491d;
-            font-weight: bold;
-        }
-        header a:hover {
-            color: #ffffff;
-            font-weight: bold;
-        }
-        section {
-            padding: 20px 0;
-            background: #fff;
-        }
-        section h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        section p {
-            line-height: 1.6;
-        }
-        .bio {
-            text-align: center;
-            margin: 20px 0;
-        }
-        .bio img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            margin-bottom: 20px;
-        }
-        .bio a {
-            color: #333;
-            text-decoration: none;
-        }
-        .bio a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            background: #333;
-            color: #fff;
-            text-align: center;
-            padding: 10px 0;
-        }
-        .publication {
-            display: flex; /* Use Flexbox */
-            align-items: flex-start; /* Align items at the start of the cross axis */
-<!--            margin-bottom: 20px;-->
-            border-bottom: 1px solid #ccc;
-            padding-bottom: 10px;
-            width: 80%;
-            margin: auto;
-            overflow: hidden;
-        }
-        .publication img {
-            max-width: 300px; /* Set the desired width */
-            height: auto; /* Maintain aspect ratio */
-            margin-right: 20px; /* Space between image and text */
-        }
-        .publication .info {
-            flex: 1; /* Take up remaining space */
-        }
-        .publication h3 {
-            margin-top: 0;
-        }
-        .publication p {
-            margin: 5px 0;
-        }
-        .publication .media {
-            margin-top: 10px;
-        }
-        .publication .info {
-        display: block; /* Ensure info is a block element */
-    }
-        .gif-image {
-            width: 300px; /* Set the desired width */
-            height: auto; /* Maintain aspect ratio */
-            display: block; /* Optional: removes extra space below the image */
-        }
-<!--        .article {-->
-<!--        display: block; /* Ensure each article is a block element */-->
-<!--        margin-bottom: 20px; /* Space between articles */-->
-<!--        overflow: hidden; /* Clear floats */-->
-<!--    }-->
-
-<!--    .article img {-->
-<!--        max-width: 300px; /* Set the desired width */-->
-<!--        height: auto; /* Maintain aspect ratio */-->
-<!--        float: left; /* Float images to the left */-->
-<!--        margin-right: 20px; /* Space between image and text */-->
-<!--    }-->
-
-<!--    .article .info {-->
-<!--        display: block; /* Ensure info is a block element */-->
-<!--    }-->
-
-<!--    .article h3 {-->
-<!--        margin-top: 0;-->
-<!--    }-->
-
-<!--    .article p {-->
-<!--        margin: 5px 0;-->
-<!--    }-->
-
-<!--    .article .media {-->
-<!--        margin-top: 10px;-->
-<!--    }-->
-    </style>
+  <meta charset="UTF-8">
+  <title>Your Name | Home</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="branding">
-                <h1>Personal pages - UNDER CONSTRUCTION</h1>
-            </div>
-            <nav>
-                <ul>
-                    <li class="current"><a href="#home">Home</a></li>
-                    <li><a href="#research">Research</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#education">Education</a></li>
-                    <li><a href="#experience">Experience</a></li>
-                    <li><a href="#tutorial">Tutorial</a></li>
+<header>
+    <div class="container">
+      <nav>
+        <a href="index.html" class="active">Home</a>
+        <a href="pages/research.html">Research</a>
+        <a href="pages/education.html">Education</a>
+        <a href="pages/tutorial.html">Tutorial</a>
+        <a href="pages/slides.html">Slides</a>
+      </nav>
+    </div>
+</header>
 
+  <header>
+    <img src="assets/pp_cropped.jpg" alt="avatar" class="avatar">
+<!--    <h>Muhammad Mamunur Rashid</h1>-->
+      <h2>Muhammad Mamunur Rashid, <span style="font-size: 0.6em;">PhD</span></h2>
+<!--    <p>One-sentence bio / tagline</p>-->
+  </header>
 
-
-                </ul>
-            </nav>
-        </div>
-    </header>
-
-    <section id="home">
+ <section id="home">
         <div class="container">
             <!-- <div class="bio"> -->
             <div style="text-align: justify;clear: both;"; class="bio">
-                <img src="pp_cropped.jpg" alt="M. Mamunur Rashid">
-                <h2>Muhammad Mamunur Rashid, <span style="font-size: 0.6em;">PhD</span></h2>
+<!--                <img src="assets/pp_cropped.jpg" alt="avatar" class="avatar">-->
+<!--                <h2>Muhammad Mamunur Rashid, <span style="font-size: 0.6em;">PhD</span></h2>-->
                 <p> <strong style="color: red;">Bio</strong>: In December 2023, I received my PhD from the Computer Graphics and Vision Laboratory, under the guidance of <a href="https://www2.scut.edu.cn/cs_en/2017/0714/c6854a172443/page.htm" style="color: blue;">Professor Li Guiqing</a>,
                     in the Department of Computer Science and Engineering at <a href="https://www.scut.edu.cn/new/" style="color: blue;">South China University of Technology</a>.
                     After graduation, I joined the R&D department of <a href="https://wuzhoucloud.com/" style="color: blue;">Guangzhou GRG Wuzhou Technologies Co., Ltd.</a> as a senior algorithm engineer,
@@ -206,19 +48,7 @@
         </div>
     </section>
 
-<!--     <section id="Thesis">-->
-<!--        <div class="container">-->
-<!--            <h2>Thesis</h2>-->
-<!--            <ul>-->
-<!--                <li>Ph.D. research:<a href="https://drive.google.com/file/d/1wcSIJuA8w-5Z2zmfSz7gel3xbxst2f8f/view" style="color: blue;"> Personalized Facial Expression Transfer by Using FLAME-->
-<!--to Decouple Shape, Pose and Expression </a> </li> Supervisor:<a href="https://www2.scut.edu.cn/cs_en/2017/0714/c6854a172443/page.htm" style="color: blue;">Professor Li Guiqing</a>-->
-<!--                <li>M.Sc. research: A Study on Various Methods of Lip Reading Systems </a></li> Supervisor: <a href="https://cu.ac.bd/public_profile/index.php?ein=4792" style="color: blue;">Professor Rashed Mustafa</a>-->
 
-<!--            </ul>-->
-<!--        </div>-->
-<!--    </section>-->
-
-    <section id="Thesis">
     <div class="container">
         <h2>Thesis</h2>
         <ul style="margin-bottom: 20px;"> <!-- Add space below this list -->
@@ -230,31 +60,21 @@
             Supervisor: <a href="https://cu.ac.bd/public_profile/index.php?ein=4792" style="color: blue;">Professor Rashed Mustafa</a>
         </ul>
     </div>
-</section>
 
 
-    <section id="research">
-        <div class="container">
+    <section>
+     <div class="container">
             <h2>Research Articles</h2>
             <p>Publications with  first author:</p>
-<!--            <ul>-->
-<!--                <li><a href="https://link.springer.com/article/10.1007/s00371-023-03035-1" style="color:blue;">High-fidelity facial expression transfer using part-based local–global conditional gans</a></li>-->
-<!--                 <li><a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/sil2.12233" style="color:blue;">Nonspeech7k dataset: Classification and analysis of human non-speech sound</a></li>-->
-<!--                &lt;!&ndash; Add more articles as needed &ndash;&gt;-->
-<!--            </ul>-->
-        </div>
+     </div>
     </section>
 
-
-
-
-<!--    <div class="publication">-->
     <div class="publication">
-        <img src="publications/obama.gif" alt="FET GIF" class="gif-image">
+        <img src="assets//obama.gif" alt="FET GIF" class="gif-image">
         <div class="info">
-            <h3>High-fidelity facial expression transfer using part-based local–global conditional GANs </h3>
+            <h3>High-fidelity facial expression transfer using part-based local–global conditional gans</h3>
             <p>Authors: Muhammad Mamunur Rashid, Shihao Wu, Yongwei Nie & Guiqing Li *</p>
-            <p>Journal: The Visual Computer, SCI-indexed, 2023</p>
+            <p>Journal: The Visual Computer , 2023</p>
             <div class="media">
                 <a href="https://link.springer.com/article/10.1007/s00371-023-03035-1">PDF</a> &nbsp
 
@@ -262,12 +82,13 @@
             </div>
         </div>
     </div>
+
     <div class="publication">
-        <img src="publications/nonspeech.gif" alt="Nonspeech Sound GIF" class="gif-image">
+        <img src="assets//nonspeech.gif" alt="Nonspeech Sound GIF" class="gif-image">
         <div class="info">
             <h3>Nonspeech7k dataset: Classification and analysis of human non-speech sound</h3>
             <p>Authors: Muhammad Mamunur Rashid, Guiqing Li *, Chengrui Du</p>
-            <p>Journal: IET Signal Processing, SCI-indexed, 2023</p>
+            <p>Journal: IET signal Processing , 2023</p>
             <div class="media">
                 <a href="https://ietresearch.onlinelibrary.wiley.com/doi/full/10.1049/sil2.12233">PDF</a>  &nbsp
 
@@ -275,39 +96,27 @@
             </div>
         </div>
     </div>
+<!--  <main>-->
+<!--    <section>-->
+<!--      <h2>About</h2>-->
+<!--      <p>Short paragraph about yourself.</p>-->
+<!--    </section>-->
 
+<!--    <section>-->
+<!--      <h2>Recent News</h2>-->
+<!--      <ul>-->
+<!--        <li>2024-05 &nbsp; Paper X accepted at Conference Y.</li>-->
+<!--        <li>2024-03 &nbsp; Joined ABC Lab.</li>-->
+<!--      </ul>-->
+<!--    </section>-->
 
+<!--    <section>-->
+<!--      <h2>Contact</h2>-->
+<!--      <p>email [at] domain [dot] com</p>-->
+<!--    </section>-->
+<!--  </main>-->
 
-
-
-
-<!--    <div class="publication">-->
-<!--        <img src="publications/obama.gif" alt="FET GIF" class="gif-image">-->
-<!--        <div class="info">-->
-<!--            <h3>High-fidelity facial expression transfer using part-based local–global conditional gans</h3>-->
-<!--            <p>Authors: Muhammad Mamunur Rashid, Shihao Wu, Yongwei Nie & Guiqing Li</p>-->
-<!--            <p> Journal: The Visual Computer , 2023</p>-->
-<!--            <div class="media">-->
-<!--                <a href="https://arxiv.org/abs/2210.01234">arXiv</a> /-->
-<!--                <a href="https://github.com/yourusername/VideoReTalking">GitHub</a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--         <img src="publications/nonspeech.gif" alt="Nonspeech Sound GIF" class="gif-image">-->
-<!--        <div class="info">-->
-<!--            <h3>Nonspeech7k dataset: Classification and analysis of human non-speech sound</h3>-->
-<!--            <p>Authors: Muhammad Mamunur Rashid, Guiqing Li, Chengrui Du</p>-->
-<!--            <p> Journal: IET signal Processing , 2023</p>-->
-<!--            <div class="media">-->
-<!--                <a href="https://arxiv.org/abs/2210.01234">arXiv</a> /-->
-<!--                <a href="https://github.com/yourusername/VideoReTalking">GitHub</a>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </div>-->
-
-
-
-
-    <footer>
+  <footer>
         <p>&copy; 2025 Muhammad Mamunur Rashid. All rights reserved.</p>
     </footer>
 </body>

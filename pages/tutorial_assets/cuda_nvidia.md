@@ -5,6 +5,7 @@ Here's a complete guide to completely remove NVIDIA/CUDA from Ubuntu and perform
 
 ### Stop all NVIDIA processes 
 ```bash
+lspci -nn | grep -i nvidia  ##to check GPU (i.e.: PCI ID 10de:2f04)
 
 sudo systemctl stop nvidia-*
 sudo systemctl disable nvidia-*
